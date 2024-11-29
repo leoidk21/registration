@@ -1,0 +1,82 @@
+body {
+  background-color: var(--primary-color-light-2);
+}
+:root {
+  --primary-color: hsl(228, 31%, 28%);
+  --primary-color-light: rgb(18, 146, 238);
+  --primary-color-light-2: rgb(134, 203, 252);
+  --secondary-color: hsl(209, 75%, 39%);
+  --accent-color: hsl(210, 40%, 96%, 81%);
+  --accent-color-1: hsl(210, 40%, 96%, 100%);
+  --background-color: hsl(0, 0%, 100%);
+
+  --neutral-soft-red: hsl(0, 68%, 56%);
+  --neutral-soft-brown: hsl(284, 3%, 34%);
+  --neutral-soft-white: hsl(0, 0, 88%);
+  --neutral-soft-grey: hsl(0, 0%, 93%);
+  --neutral-soft-green: hsl(113, 69%, 37%);
+  --neutral-soft-green-1: hsl(111, 82%, 31%);
+  --neutral-soft-pink: hsl(319, 61%, 85%, 60%);
+}
+.container {
+  margin-top: 10rem;
+  text-align: center;
+}
+h2 {
+  color: var(--primary-color);
+  font-family: 'Poppins', sans-serif;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.registration-form {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2rem;
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--accent-color-1);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+form {
+  display: flex;
+  border-radius: 1rem;
+}
+input {
+  width: 95%;
+  border: none;
+  outline: none;
+  padding: 0.6rem;
+  margin-top: 0.3rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.8rem;
+  border: 1px solid var(--neutral-soft-grey);
+}
+.options {
+  width: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0.6rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.8rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--neutral-soft-grey);
+}
+label {
+  text-align: left;
+}
+.submit {
+  width: 100%;
+  cursor: pointer;
+  font-size: 1rem;
+  color: var(--background-color);
+  background-color: var(--primary-color);
+}
